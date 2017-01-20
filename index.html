@@ -1,69 +1,229 @@
 ﻿<!DOCTYPE html>
-<html lang="PL-pl">
-	<head>
-		<meta charset="UTF-8">
-		<title>Flexbox</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		<header>	
-			<nav class="container">
-				<div class="logo">
-					<img src="http://i68.tinypic.com/50ifjp.jpg" alt="">
+<html lang="pl-PL">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">   
+	<title>Layout</title>    
+</head> 
+<body>
+    <header>
+        <nav class="container-fluid">
+        	<div class="row">
+        		<div class="container">
+	        		<div class="col-1 col-s-2">
+	            		<img src="http://i68.tinypic.com/50ifjp.jpg">
+	            	</div>	
+	            	<div class="col-2 col-s-6">	
+	            		<p>CIEPIELA GYM<p>
+	            	</div>	
+	            	<div class="col-9 col-s-4">
+	            		<ul>
+	                		<li><a href="#link1">O nas</a></li>
+	                		<li><a href="#link2">Galeria</a></li>
+	                		<li><a href="#link3">Kadra</a></li>
+	            		</ul>
+	            	</div>
+	            </div>	
+            </div>	
+        </nav>
+    </header>
+     <section class="container hero">
+        <div class="slogan">
+            <p>Somewhere out there someone is working harder than you. When you meet on the field of battle, you're gonna lose.”</p>
+        </div>
+    </section>
+    <section class="container hello">
+    	<div class="row">
+    		<div class="col-12 col-s-12">
+    			<h1 id="link1">Siłownia Ciepiela Gym</h1>
+    			<p>White Star Power to nowoczesny kompleks sportowy składający się z siłowni, sali fitness, suchej sauny oraz sali do crossfit’u. Otwarty w 2014 roku po to by dać najbardziej wymagającym klientom tego czego oczekują od siłowni. Jest hybrydą klasycznej siłowni i klubu fitness. Duża przestrzeń, nowoczesny sprzęt i niepowtarzalny klimat sprawiają, że chce wracać się do tego miejsca. Na trzech poziomach znajdą u nas Państwo strefę cardio wyposażoną w bieżnie, ergometry, rowerki, steppery, orbitreki, strefę do treningu indywidualnego. Oferujemy zajęcia fitness oraz crossfit. Zapraszamy także do naszego sklepu, gdzie znajdą Państwo odpowiednie suplementy i odżywki.</p>
+    		</div>
+    	</div>
+    </section>	
+    <section class="container buttons">
+        <div class="row">
+            <div class="col-4 col-s-12 example">
+                <<i class="btn fa fa-bolt" aria-hidden="true"></i><br>    
+                <h2>SIŁA</h2>   
+                <p>Sekcja wolnych ciężarów pozwoli zrobić każdy, nawet najbardziej wymagający, trening siłowy</p> 
+                <button>Więcej</button>
+            </div>
+            <div class="col-4 col-s-12">
+                <i class="btn fa fa-bicycle" aria-hidden="true"></i><br>
+                <h2>WYTRZYMAŁOŚĆ</h2>
+                <p>Sekcja cardio dla tych, kórym ciężkie treningi siłowe nie wystarczają.</p>
+                <button>Więcej</button> 
+            </div>
+            <div class="col-4 col-s-12">
+                <i class="btn fa fa-heartbeat" aria-hidden="true"></i><br>
+                <h2>ZDROWIE</h2>
+                <p>Oferujemy wsparcie w zakresie dietetyki, suplementacji na życzenie klienta.</p>
+                <button>Więcej</button> 
+            </div>
+        </div>
+    </section>
+    <section class="container gallery">
+    	<div class="row">
+    		<div class="col-12">
+    		<h3 id="link2">GALERIA ZDJĘĆ </h3>
+    		</div>
+    		<div class="col-2 col-s-12">
+    			<img src="http://i67.tinypic.com/2isbokx.jpg" alt="1">
+    		</div>
+    		<div class="col-2 col-s-12">
+    			<img src="http://i65.tinypic.com/156xrac.jpg" alt="2">
+    		</div>
+    		<div class="col-2 col-s-12">
+    			<img src="http://i68.tinypic.com/9gvxox.jpg" alt="3">
+    		</div>
+    		<div class="col-2 col-s-12">
+    			<img src="http://i64.tinypic.com/2rr8945.jpg" alt="4">
+    		</div>
+    		<div class="col-2 col-s-12">
+    			<img src="http://i63.tinypic.com/2wejciu.jpg" alt="5">
+    		</div>
+    		<div class="col-2 col-s-12">
+    			<img src="http://i66.tinypic.com/30c92xe.jpg" alt="6">
+    		</div>
+    	</div>
+    </section>	
+    <section class="container team">
+		<div class="row">
+			<div class="col-12">
+				<h4 id="link3">SZTAB TRENERSKI</h4>
+				<div class="col-3 col-s-12">
+                	<div class="stuff">
+                		<p>Dietetyk</p>	
+                		<img src="https://scontent.fwaw3-1.fna.fbcdn.net/v/t1.0-1/c47.0.160.160/p160x160/10354686_10150004552801856_220367501106153455_n.jpg?oh=52520e5318c888424270d6ba8fe8bc17&oe=58F52749">
+                		<p>Marcin</p>
+                		<p2>Lorem ipsum dolor sit amet, zril intellegat has ut, ei sed laoreet electram. Id vel tale scripserit, id sed erroribus omittantur. Eos cu summo disputationi, in illud doming has, et nec adipisci constituam quaerendum.</p2>
+                	</div>	
+                </div>
+            	<div class="col-3 col-s-12">
+                	<div class="stuff">
+                		<p>Trener</p>	
+                		<img src="https://scontent.fwaw3-1.fna.fbcdn.net/v/t1.0-1/c47.0.160.160/p160x160/10354686_10150004552801856_220367501106153455_n.jpg?oh=52520e5318c888424270d6ba8fe8bc17&oe=58F52749">
+                		<p>Marcin</p>
+                		<p2>Lorem ipsum dolor sit amet, zril intellegat has ut, ei sed laoreet electram. Id vel tale scripserit, id sed erroribus omittantur. Eos cu summo disputationi, in illud doming has, et nec adipisci constituam quaerendum.</p2>
+                	</div>	
+                </div>
+          		<div class="col-3 col-s-12">
+                	<div class="stuff">
+                		<p>Trener</p>	
+                		<img src="https://scontent.fwaw3-1.fna.fbcdn.net/v/t1.0-1/c47.0.160.160/p160x160/10354686_10150004552801856_220367501106153455_n.jpg?oh=52520e5318c888424270d6ba8fe8bc17&oe=58F52749">
+                		<p>Marcin</p>
+                		<p2>Lorem ipsum dolor sit amet, zril intellegat has ut, ei sed laoreet electram. Id vel tale scripserit, id sed erroribus omittantur. Eos cu summo disputationi, in illud doming has, et nec adipisci constituam quaerendum.</p2>
+                	</div>	
+                </div>
+               	<div class="col-3 col-s-12">
+                	<div class="stuff">
+                		<p>Trener</p>	
+                		<img src="https://scontent.fwaw3-1.fna.fbcdn.net/v/t1.0-1/c47.0.160.160/p160x160/10354686_10150004552801856_220367501106153455_n.jpg?oh=52520e5318c888424270d6ba8fe8bc17&oe=58F52749">
+                		<p>Marcin</p>
+                		<p2>Lorem ipsum dolor sit amet, zril intellegat has ut, ei sed laoreet electram. Id vel tale scripserit, id sed erroribus omittantur. Eos cu summo disputationi, in illud doming has, et nec adipisci constituam quaerendum.</p2>
+                	</div>	
+                </div>
+        </div>
+    </section>
+    <section class="container promotion">
+    	<div class="row">
+    		<div class="col-12  col-s-12">
+    			<h5>Dołącz do nas przez panel mobilny po większe promocje!</h5>
+    		</div>
+    		<div class="promo">
+    			<div class="col-6  col-s-4">
+					<img src="http://i63.tinypic.com/2n1gx8y.jpg" alt="6">
 				</div>
-				<ul>
-					<li><a href="#">link 1</a></li>
-					<li><a href="#">link 2</a></li>
-					<li><a href="#">link 3</a></li>
-    			</ul>
-    		</nav>
-    	</header>
-	    <section class="jumbotron container">
-	      <h1>jumbotron header</h1>
-	    </section>
-	    <section class="container gallery">
-		    <div class="photo">
-		    	<img src="http://placehold.it/400x400" alt="photo">
-		    </div>
-		    <div class="photo">
-		    	<img src="http://placehold.it/400x400" alt="photo">
-		    </div>
-		    <div class="photo">
-		    	<img src="http://placehold.it/400x400" alt="photo">
-		    </div>
-		    <div class="photo">
-			 <img src="http://placehold.it/400x400" alt="photo">
-		    </div>
-		    <div class="photo">
-		    	<img src="http://placehold.it/400x400" alt="photo">
-		    </div>
-		    <div class="photo">
-		    	<img src="http://placehold.it/400x400" alt="photo">
-		    </div>
-	    </section>
-	    <section class="text">
-		    <div class="container text">
-			    <div class="card">some text</div>
-			    <div class="card">some text</div>
-			    <div class="card">some text</div>
-			    <div class="card">some text</div>
-			    <div class="card">some text</div>
-			    <div class="card">some text</div>
-			    <div class="card">some text</div>
-			    <div class="card">some text</div>
-			    <div class="card">some text</div>
-			    <div class="card">some text</div>
-	    	</div>
-	    </section>
-	    <footer>
-			<div class="copyright">
-				<p>&copy; Krystian</p>
+				<div class="col-3  col-s-4"> 
+					<p>Lorem ipsum dolor sit amet, zril intellegat has ut, ei sed laoreet electram. Id vel tale scripserit, id sed erroribus omittantur. Eos cu summo disputationi, in illud doming has, et nec adipisci constituam quaerendum.</p>
+				</div>
+				<div class="col-3  col-s-4"> 
+					<p>Lorem ipsum dolor sit amet, zril intellegat has ut, ei sed laoreet electram. Id vel tale scripserit, id sed erroribus omittantur. Eos cu summo disputationi, in illud doming has, et nec adipisci constituam quaerendum.</p> 
+				</div>
 			</div>
-			<div class="firm">
-				<p>Ciepiela Gym</p>
+		</div>
+	</section>
+	<section class="container figures">
+		<div class="row">
+			<div class="col-4 col-s-12">
+				<div class="row number">
+					<p>250+</p>
+				</div>
+				<div class="row txt">
+					<p>Zadowolonych klientów</p>
+				</div>
 			</div>
-			<div class="address">
-				<p>222 Humniska</p>
+			<div class="col-4 col-s-12">
+				<div class="row number">
+					<p>2010</p>
+				</div>
+				<div class="row txt">
+					<p>Rok założenia</p>
+				</div>
 			</div>
-		</footer>    
+			<div class="col-4 col-s-12">
+				<div class="row number">
+					<p>1000000+</p>
+				</div>
+				<div class="row txt">
+					<p>Udanych treningów</p>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<footer>
+		<section class="foot container">
+			<div class="row">
+				<div class="col-4 example3 col-s-12">
+					<p>O nas</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus</p>
+				</div>
+				<div class="col-4 example9 col-s-12">
+					<div class="col-12 example4"> 
+						<p>Kontakt</p>
+					</div>
+					<div class="col-6 example4 col-s-6">
+						<p>Adres</p>
+						<p>Telefon</p>
+						<p>E-mail</p>
+					</div>	
+					<div class="col-6 example4 col-s-6">
+						<p>Humniska</p>
+						<p>777666555</p>
+						<p>random@gmail.com</p>
+					</div>	
+				</div>		
+				<div class="col-4 example3 col-s-12">
+					<p>Skontaktuj sie z nami poprzez:</p>
+					<button class="icon-btn icon-btn-twitter"><i class="fa fa-twitter"></i></button>
+					<a href="https://www.facebook.com/sajpielgym" target="_blank"><button class="icon-btn icon-btn-facebook"><i class="fa fa-facebook"></i></button></a>
+					<button class="icon-btn icon-btn-google-plus"><i class="fa fa-google-plus"></i></button>
+					<button class="icon-btn icon-btn-instagram"><i class="fa fa-instagram"></i></button>
+					<button class="icon-btn icon-btn-github"><i class="fa fa-github"></i></button>
+				</div>
+					
+			</div>
+		</section>
+		<section class="footer2 container-fluid">
+		<div class="row container">
+			<div class="col-12 col-s-12">
+				<p>Copyright by</p>
+			</div>
+		</div>	
+	</footer>
+</body>
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
