@@ -22,7 +22,7 @@
   				dest: 'images/build/'
   			}]
   		}
-  	}
+  	},
 	watch: {
     scripts: {
         files: ['sass/*.sass'],
